@@ -1,8 +1,8 @@
 /*
 ** EPITECH PROJECT, 2019
-** Project Name
+** Lib My
 ** File description:
-** [file description here]
+** Prototypes of functions from the library.
 */
 
 #ifndef _MY_H_
@@ -10,14 +10,7 @@
 #define _MY_H_
 
 void my_putchar(char c);
-int my_absolute_value(int nb);
-int my_compute_power_rec(int nb, int p);
-int my_compute_square_root(int nb);
-int my_find_prime_sup(int nb);
 int my_getnbr(char const *str);
-int my_is_prime(int nb);
-int my_isneg(int n);
-int overflow_check(int a, int b);
 void my_put_nbr(int n);
 int my_putstr(char const *str);
 char *my_revstr(char *str);
@@ -44,6 +37,5 @@ void my_swap(int *a, int *b);
 void my_swap_char(char *a, char *b);
 int my_show_word_array(char * const *tab);
 char *my_strlcat(char *dest, char const *src, int n);
-char *my_unsign(char *str);
 
 #endif

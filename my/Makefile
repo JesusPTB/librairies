@@ -1,3 +1,10 @@
+##
+## EPITECH PROJECT, 2019
+## Lib My
+## File description:
+## Makefile
+##
+
 SRC =	my_absolute_value.c \
 		my_compute_power_rec.c \
 		my_compute_square_root.c \

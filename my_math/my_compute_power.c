@@ -1,8 +1,8 @@
 /*
 ** EPITECH PROJECT, 2019
-** my_compute_power_rec
+** Lib My - My_Compute_Power_rec
 ** File description:
-** Return a number at power p in recursive
+** Return a number at power p
 */
 
 int overflow_check(int a, int b);
